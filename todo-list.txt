@@ -1,0 +1,19 @@
+Performance improvement by drawing only changed tiles
+
+convert weapons/items display and keycards to bit-map graphics (I can help with this)
+
+use 4 freed-up sprites to represent units 28 - 31 which can be weapons fire, bombs, small explosion, or magnet.  
+
+replace title screen with bit-mapped graphic
+
+redesign the parts of the game screen that used to be character graphics into something bitmapped (I can do this)
+
+Work out some form of animation for water, air conditioner, etc
+
+I need to find more places where text is supposed to be drawn and fix it up to draw on the bitmap. For example, the win/lose screen has practically no information on it at the moment.
+
+*** DONE *** redesign player character so that it contrasts better with new graphics (I can do this)
+
+*** DONE *** It still might be useful to see where goat tracker can relocate the music to, so that we can reclaim a VIC bank in ram block 0. Starting at $9000 instead of $A000 would probably be ideal if it is possible.
+
+71
